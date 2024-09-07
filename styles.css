@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(33% - 22px); /* Ensures the three inputs stay in line */
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
